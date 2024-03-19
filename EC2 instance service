@@ -1,0 +1,19 @@
+# Introduction to Elacti Compute Cloud EC2 instance
+EC2 instance is an Infrastructue as ac service (Iaas).
+Elastic compute cloud (Amazon EC2) is an web service provided by Amazon Web Services (AWS). Allowing users to run virtual servers in the cloud EC2 instance and for running applications on AWS Infrastructure. 
+EC2 instances provide scalable computing capacity, allowing users to easily deploy and manage applications.
+To which we can attach an EBS volume and Auto-Scaling Group (ASG). ASG is used to scale up or scale down the ec2 instances as per the requirements. 
+You can create EC2 instance and SSH into CLI and perform tasks such as hosting websites, running applications.
+# EC2 pricing Model
+
+1. Spot instance
+It provides upto 90% discount and are suitable for short workloads.But might not be reliable for critical workloads.
+
+2. Reserved instance
+It provides upto 72% discount and are suitable for long-term workloads. Instances can be reserved for 1-3 years.
+
+3. On-demand instance
+It provides cheaper pay-as-you-go option with no upfront payment or long-term commitments. They are suitable for applications with unpredictable workloads or short workloads.
+
+4. Dedicated Hosts
+It gives you physical server dedicated for your use.They are good for companies with strong compliance needs or suitable for software that have complicated licensing models.
