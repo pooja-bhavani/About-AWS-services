@@ -1,0 +1,28 @@
+# Brief on S3 Bucket
+What is S3 ?
+S3 is an simple storage service which has capabilities of scability, high availibility, security, cost effectiveness and performance. We can use S3 bucket to store files, folders, documents, application logs etc. It is an object-based storage and an serverless cloud storage service.
+
+Advantages of S3
+1. High availability and durability
+2. Security
+3. Performance
+4. Cost-effective
+5. Scability.
+
+Use cases of S3
+* Backup and Storage
+* Distaster Recovery
+* Hybrid Cloud Storage (In case we have on- permises storage and we want to expand into cloud).
+* Archieve (We can archieve or retrieve files from S3 bucket).
+
+Once we store an object in S3 Bucket it automatically creates multiple replica of the objects to protect against the failure of individual servers or entire AZ. So, even if an AZ goes down we will have multiple copies in multiple places. 
+
+Storage Classes: S3 provides different storage classes, such as Standard, Standard-IA (Infrequent Access), One Zone-IA, Intelligent-Tiering, Glacier, and Glacier Deep Archive. Each storage class offers different performance, durability, and cost efficiency, that allows users to choose the most appropriate option based on their specific requirements.
+
+Lifecycle Policies: S3 allows users to define lifecycle policies to automate the migration of objects between different storage classes or to delete objects based on predefined rules. This helps optimize storage costs and manage data lifecycle efficiently.
+
+S3 Versioning: We can enalbe S3 versioning to maintain the versions of objects.
+
+The size of S3 bucket is upto 5TB and encryption is enabled By default.
+
+
