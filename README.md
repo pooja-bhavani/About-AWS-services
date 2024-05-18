@@ -1,4 +1,4 @@
-# About IAM (Identity and Access Management)
+0# About IAM (Identity and Access Management)
 About IAM users, groups, policies and roles.
 
 IAM Users: We create an iam (Identity and Access Management) user for individuals within the organization and give access to resources. And the tasks will be performed as iam user and not root user for security purpose. IAM users will have permanent long-term credentails in the form of username and passward and for enhance security will enable multi-factor authentication (MFA).  
