@@ -1,4 +1,4 @@
-p# What is Load Balancer?What are the types of load balancers?
+# What is Load Balancer?What are the types of load balancers?
 
 Load balancer is a service used to route the incoming traffic across all servers equally that are capable of fulfilling those requests in a manner that maximizes speed and
 capacity utilization. The load balancer ensures that no one server is overloded with the traffic.
