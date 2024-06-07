@@ -11,9 +11,29 @@ IAM Group: IAM group is the collection of iam users. By organizing iam users int
 
 IAM Roles: IAM roles are similar to iam users but is not associated with specific individual user. IAM Roles are used to grant permissions to services not users. Eg: I have you deployed an python application on EC2 instance and for some reason it wants access to database or S3 bucket in AWS. In this case will attach an IAM role to this EC2 instance to grant read or write permissions to database.
 
-![image](https://github.com/pooja-bhavani/About-AWS-services/assets/147735975/1194512f-ee4e-4b54-b1dd-081d0e9c05af)
+![image](https://github.com/pooja-bhavani/About-AWS-services/assets/147735975/1194512f-ee4e-4b54-b1dd-081d0e9c05af
 
 # AWS Data Sync Service
 * It is used to move large amount of data to and from places. Places would be on-permises/other cloud to AWS by connecting to server using (NFS, SMB, S3API)- needs agent. 
 * It is an online data transfer service.
 * AWS to AWS - does not require agent.
+
+# AWS RDS Service
+![image](https://github.com/pooja-bhavani/About-AWS-services/assets/147735975/a159cf83-1ac9-48ee-807c-e78adfe1f690)
+About Relational database service(RDS)...!
+
+RDS uses SQL as a query language and is an managed database service.
+Use Cases:
+* It is best suitable for online transaction processing(OLTP). 
+* Multi-AZ for disaster Recovery
+* Manages security and patching
+* If multi-AZ option is selected with synchronous replication, so even on failover of an database we can still access service from standby replica.
+
+Types of database engines
+1. Postgres- It is very reliable and stable.
+2. MySQL- It is used for web application.
+3. Oracle- It manages data, prevents security breaches and provide seamless access to applications.
+4. Aurora- For fast processing.
+
+
+
