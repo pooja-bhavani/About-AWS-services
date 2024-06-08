@@ -38,7 +38,6 @@ Types of database engines
 
 # Brief about Amazon DynamoDB
 ![image](https://github.com/pooja-bhavani/About-AWS-services/assets/147735975/6fb7b83e-deb6-420d-bdb4-865e2dc172b9)
-Brief about Amazon DynamoDB
 # It is an Non-Relational database service.
 * DynamoDB is an high available service.
 * Scales to massive workloads.
