@@ -36,4 +36,23 @@ Types of database engines
 4. Aurora- For fast processing.
 
 
+# AWS DynamoDB
+![image](https://github.com/pooja-bhavani/About-AWS-services/assets/147735975/6fb7b83e-deb6-420d-bdb4-865e2dc172b9)
+Brief about Amazon DynamoDB
+# It is an Non-Relational database service.
+* DynamoDB is an high available service.
+* Scales to massive workloads.
+* Can scale millions of requests per seconds.
+For Security
+* It is integrated with IAM for security, authorization and administration.
+* Low cost and auto-scaling capabilities.
+* No maintenance or patching required, (don't need to provision database) just need to create table and specify capacity needs.
+* DynamoDB is an schemaless (unstructured database).
+* It is made of tables. Each table has a primary key (must be decided at the time of creation).
+* Infinite no. of items.
+* Maximum size of item must be 400 KB(DynamoDB is not for storing large objects).
+
+
+
+
 
