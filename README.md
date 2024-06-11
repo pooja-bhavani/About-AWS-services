@@ -35,7 +35,7 @@ Types of database engines
 3. Oracle- It manages data, prevents security breaches and provide seamless access to applications.
 4. Aurora- For fast processing.
 
-#RDS Proxy
+# RDS Proxy
 ![image](https://github.com/pooja-bhavani/About-AWS-services/assets/147735975/defdc672-a982-4e61-a70e-c7bd5aa1d470)
 Lambda with RDS Proxy 
 * If the lambda functions directly access your database , they may open too many connections under high load.
