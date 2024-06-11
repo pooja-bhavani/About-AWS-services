@@ -60,6 +60,18 @@ For Security
 * Infinite no. of items.
 * Maximum size of item must be 400 KB(DynamoDB is not for storing large objects).
 
+# AWS Global Accelerator
+![image](https://github.com/pooja-bhavani/About-AWS-services/assets/147735975/62f98f79-d1ba-421b-bbca-2f87d7726513)
+
+AWS Global Accelerator
+* Provides two types of IP Addresses:
+1. Unicast IP - Here, one server holds one ip address. When a client sends request to this IP address, it's directed to the specific server associated with that IP.
+
+2. Anycast IP - Here, all the servers hold the same ip address and client's request is routed to the nearest server.
+* Instead of sending the request to public internet ALB directly talks to the closest edge locations.
+*It improves performance and reliability.
+
+
 
 
 
