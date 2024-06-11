@@ -35,6 +35,15 @@ Types of database engines
 3. Oracle- It manages data, prevents security breaches and provide seamless access to applications.
 4. Aurora- For fast processing.
 
+#RDS Proxy
+![image](https://github.com/pooja-bhavani/About-AWS-services/assets/147735975/defdc672-a982-4e61-a70e-c7bd5aa1d470)
+Lambda with RDS Proxy 
+* If the lambda functions directly access your database , they may open too many connections under high load.
+RDS Proxy
+* It improves scability by pooling and sharing database connections, which can help in managing database connections more efficiently.
+* To use RDS Proxy the lambda functions must be deployed in your VPC, because RDS Proxy are never publicly accessible.
+* If we launch LF's publicly we will have no network connectivity to RDS Proxy.
+
 
 # Brief about Amazon DynamoDB
 ![image](https://github.com/pooja-bhavani/About-AWS-services/assets/147735975/6fb7b83e-deb6-420d-bdb4-865e2dc172b9)
@@ -50,6 +59,7 @@ For Security
 * It is made of tables. Each table has a primary key (must be decided at the time of creation).
 * Infinite no. of items.
 * Maximum size of item must be 400 KB(DynamoDB is not for storing large objects).
+
 
 
 
