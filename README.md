@@ -72,6 +72,18 @@ AWS Global Accelerator
 * Instead of sending the request to public internet ALB directly talks to the closest edge locations.
 *It improves performance and reliability.
 
+# AWS Database Migration Service (DMS)
+![image](https://github.com/pooja-bhavani/About-AWS-services/assets/147735975/ff9b772e-9a98-4c8f-ace2-56113c49db73)
+Use Cases
+* DMS is used to quickly and securely migrate databases to AWS.
+* For continuous data replication.
+1. To use Database migration service we need to create EC2 instance to perform the replication tasks.
+2. To convert database from one engine to another we need to use SCT(Schema Conversion Tool).
+# If we migrate the same database engine there is no need to use SCT
+EG: PostgreSQL => RDS PostgreSQL it is same DB engine no need of SCT.
+# If source and targetDB engine is different we use SCT.
+EG: Oracle => PostgreSQL.
+
 
 
 
