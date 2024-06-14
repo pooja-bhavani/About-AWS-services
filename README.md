@@ -85,6 +85,15 @@ EG: PostgreSQL => RDS PostgreSQL it is same DB engine no need of SCT.
 EG: Oracle => PostgreSQL.
 
 
+# AWS Redshift Service
+![image](https://github.com/pooja-bhavani/About-AWS-services/assets/147735975/0b8ccd86-a167-400c-a6aa-05b33f2a9164)
+* Redshift is based on PostgreSQL.
+* It is used for Online Analytical Processing(OLAP) Workloads not Online Transaction Processing(OLTP). And scales PB's of data.
+* It Provides SQL interface for performing Queries.
+* It is used to scale and analyze large amount of data.
+* It offers various security features, which involves encryption at rest, IAM integration, VPC isolation.
+* It  is a powerful data warehousing solution for businesses seeking to analyze large amount of data.
+
 
 
 
