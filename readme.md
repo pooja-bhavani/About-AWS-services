@@ -1,5 +1,6 @@
+ AWS Virtual Private Cloud (VPC)
 ![image](https://github.com/pooja-bhavani/About-AWS-services/assets/147735975/2ace1514-e8cf-4cde-82c3-5cb591615ae2)
-AWS Virtual Private Cloud (VPC):
+
 * VPC is created in a region. It cannot be extended to another region.
 * Maximum 5 VPC's can be created in a region. And 200 Subnets in 1 VPC Note: Subnets are AZ specific
 * Maximum 5 Elastic ip addresses can be allocated in 1 account, if we require more we can request amazon and extend it.
