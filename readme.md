@@ -12,3 +12,8 @@ Eg: If I submit 10.000/16, than later I cannot change it.
 * Network Address Translation (NAT) Gateway is always created in Public Subnet and used to provide internet access to instances in Private Subnet.
 * Network Access Control List (NACL) works at subnet level to control inbound and outbound traffic within VPC.
 * Internet Gateway (IGW) allows resources(Eg: EC2 instances) in VPC to connect to Internet.
+
+# Difference between Security Groups and Network Access Control List(NACL).
+* Security Groups- It operates at an Instance-level. They are stateful and have allow option only if you allow an incoming request, the response is automatically allowed. Because security groups are stateful we need to carefully define security group rules, based on application's security requirements.
+
+* Network Access Control List (NACL)- It operates at an Subnet-level. Because NACL operates at subnet-level and are stateless the traffic is not automatically allowed, we must define both inbound and outbound rules in NACL to allow or deny traffic based on source and destination ip addresses, ports and protocols.
