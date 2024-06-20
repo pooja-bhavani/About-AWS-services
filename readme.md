@@ -26,6 +26,7 @@ CloudFormation templates helps us to create, manage and update resources. It imp
 and does not support any other cloud provider. User can either write YAML or Json template because CF supports only these templates. When we submit the template to cloudformation it converts it into API calls.
 
 Difference between CLI and CloudFormation template ?
+
 CLI- It is used to perform quick actions Eg: To give the list of S3 Buckets available on AWS account or to get the details about resources.
 
 CFT- It can be used to create multiple resources.
