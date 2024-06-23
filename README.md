@@ -11,9 +11,26 @@ IAM Group: IAM group is the collection of iam users. By organizing iam users int
 
 IAM Roles: IAM roles are similar to iam users but is not associated with specific individual user. IAM Roles are used to grant permissions to services not users. Eg: I have you deployed an python application on EC2 instance and for some reason it wants access to database or S3 bucket in AWS. In this case will attach an IAM role to this EC2 instance to grant read or write permissions to database.
 
-![image](https://github.com/pooja-bhavani/About-AWS-services/assets/147735975/525a9506-aab6-44a7-a7eb-9d2b2a54a51e)
+# About AWS Load Balancer Service
+![image](https://github.com/pooja-bhavani/About-AWS-services/assets/147735975/cabca34a-b5e4-4a67-8f2c-35867717f782)
+Load balancer is a service used to route the incoming traffic across all servers equally that are capable of fulfilling those requests in a manner that maximizes speed and capacity utilization. The load balancer ensures that no one server is overloded with the traffic.
+
+# Types of load balancers? And difference between them.
+Application Load Balancer (ALB): Layer 7
+* ALB supports HTTP, HTTPS and Web socket traffic.
+* Allows load balancing to multiple HTTP applications across different machines and same machines (EC2).
+* The application servers don't see the client's ip directly.
+* ALB is an internet-facing load balancer That allows users access the application so it is exposed to external world and can distribute incoming application traffic across multiple targets, such as EC2 instances, containers, and IP addresses. 
+ 
+Network Load balancer (NLB): Layer 4
+* It works at transport layer.
+* It forwards TCP/UDP traffic to instances.
+* Handles millions of requests per second.
+* It has one static IP per AZ.
+* NLB can be used to route traffic to internal resources within a network.
 
 # AWS Data Sync Service
+![image](https://github.com/pooja-bhavani/About-AWS-services/assets/147735975/525a9506-aab6-44a7-a7eb-9d2b2a54a51e)
 * It is used to move large amount of data to and from places. Places would be on-permises/other cloud to AWS by connecting to server using (NFS, SMB, S3API)- needs agent. 
 * It is an online data transfer service.
 * AWS to AWS - does not require agent.
