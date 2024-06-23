@@ -5,7 +5,7 @@ capacity utilization. The load balancer ensures that no one server is overloded 
 
 # Types of load balancers? And difference between them.
 
-* Application Load Balancer (ALB): Layer 7
+# Application Load Balancer (ALB): Layer 7
 
   ALB supports HTTP, HTTPS and Web socket traffic.
 
@@ -13,7 +13,7 @@ capacity utilization. The load balancer ensures that no one server is overloded 
 
   The application servers don't see the client's ip directly.
 
-* Network Load balancer (NLB): Layer 4
+# Network Load balancer (NLB): Layer 4
 
    It works at transport layer.
 
