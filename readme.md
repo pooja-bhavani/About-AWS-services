@@ -33,6 +33,16 @@ CFT- It can be used to create multiple resources.
 
 # AWS Transfer Family
 ![image](https://github.com/pooja-bhavani/About-AWS-services/assets/147735975/5a2b0af8-e946-4aca-947a-ab550765bc06)
+* Transfer Family is used to transfer files in and out of S3 and Elastic File System(EFS) using File Transfer Protocol(FTP)
+* AWS Transfer Family Supports
+1. FTP- File Transfer Protocol (it is unencrypted form)
+Unencrypted: Transfers files without encryption, makes it suitable for non-sensitive data transfers.
+2. SFTP- Secure File Transfer Protocol (it is encrypted form)
+Encrypted: Provides secure file transfer by encrypting both commands and data, ensuring data privacy.
 
+3. FTPS over SSL/TLS- File Transfer Protocol (it is over Secure Socket Layer SSL encrypted form)
+SSL/TLS Encrypted: Enhances security by utilizing Secure Socket Layer / Transport Layer Security (TLS) for encrypting the FTP data transfers.
+
+* It is reliable, scalable and highly available.
 
 
