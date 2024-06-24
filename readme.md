@@ -31,4 +31,6 @@ CLI- It is used to perform quick actions Eg: To give the list of S3 Buckets avai
 
 CFT- It can be used to create multiple resources.
 
+# AWS Transfer Family
+
 
