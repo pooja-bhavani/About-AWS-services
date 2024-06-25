@@ -47,6 +47,11 @@ SSL/TLS Encrypted: Enhances security by utilizing Secure Socket Layer / Transpor
 
 AWS Glue
 ![image](https://github.com/pooja-bhavani/About-AWS-services/assets/147735975/f9748d81-88ec-4f0d-b64b-570f84ff3929)
-
+* Glue is used to Extract, Transform/ Filter and Load data to destinations.
+Eg: We can use glue to load data from S3 bucket or RDS to destinations like Redshift.
+* It is a Serverless service, there is no infrastructure to manage 
+* Clients can prepare and transform data for analytics.
+* It can automatically detect and catalog data across various data sources, including S3, RDS, Redshift, and others.
+* It allows us to schedule ETL jobs to run at specified times or intervals.
 
 
