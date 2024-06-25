@@ -45,7 +45,7 @@ SSL/TLS Encrypted: Enhances security by utilizing Secure Socket Layer / Transpor
 
 * It is reliable, scalable and highly available.
 
-AWS Glue
+# AWS Glue
 ![image](https://github.com/pooja-bhavani/About-AWS-services/assets/147735975/f9748d81-88ec-4f0d-b64b-570f84ff3929)
 * Glue is used to Extract, Transform/ Filter and Load data to destinations.
 Eg: We can use glue to load data from S3 bucket or RDS to destinations like Redshift.
