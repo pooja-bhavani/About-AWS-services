@@ -54,4 +54,6 @@ Eg: We can use glue to load data from S3 bucket or RDS to destinations like Reds
 * It can automatically detect and catalog data across various data sources, including S3, RDS, Redshift, and others.
 * It allows us to schedule ETL jobs to run at specified times or intervals.
 
+# VPC Flow Logs
+![image](https://github.com/pooja-bhavani/About-AWS-services/assets/147735975/bca2bad4-3736-497f-8eed-41f5e19fac49)
 
