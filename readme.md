@@ -56,4 +56,9 @@ Eg: We can use glue to load data from S3 bucket or RDS to destinations like Reds
 
 # VPC Flow Logs
 ![image](https://github.com/pooja-bhavani/About-AWS-services/assets/147735975/bca2bad4-3736-497f-8eed-41f5e19fac49)
-
+* VPC Flow Logs capture information about the IP traffic going to and from network interfaces in your VPC.
+* It can be setup at VPC/Subnet/Elastic Network Interface(ENI) level to except or reject traffic.
+Use Cases
+* Identify and investigate potential security threats or unusual activities.
+* Troubleshoot network misconfigurations and application performance issues.
+* It helps to identify attacks, analyze using Athena or CloudWatch log insights.
