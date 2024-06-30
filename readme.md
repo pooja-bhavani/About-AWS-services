@@ -65,4 +65,8 @@ Use Cases
 
 # AWS Direct Connect...!
 ![image](https://github.com/pooja-bhavani/About-AWS-services/assets/147735975/4f68b655-c47d-4a0c-86e5-e6aa1250ac9c)
+* Direct connect provides a dedicated private connection from remote network into VPC.
+* To establish a connection, we need to set up a Direct Connect connection at the AWS side and configure the appropriate customer gateway device at the client side.
+* To connect multiple VPC's in different regions with same account we use direct connect gateway.
+* It supports both IPv4 and IPv6.
 
