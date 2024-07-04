@@ -70,3 +70,26 @@ Use Cases
 * To connect multiple VPC's in different regions with same account we use direct connect gateway.
 * It supports both IPv4 and IPv6.
 
+# AWS Backup...!
+![image](https://github.com/pooja-bhavani/About-AWS-services/assets/147735975/c1b1701c-b2d0-46cc-aec7-e5ae5bf8469a)
+* Supported services by AWS Backup:
+* Amazon EC2, Elastic Block Store (EBS)
+* Amazon S3 focuses on object-level backups in S3
+* Amazon RDS (Relational Database Service), Aurora  (a MySQL and PostgreSQL-compatible relational database)
+* DynamoDB (NoSQL database), DocumentDB (with MongoDB compatibility), Amazon Neptune (graph database)
+* Amazon EFS, FSX for (lustre and windows file server)
+* AWS Storage Gateway for (hybrid cloud storage)
+
+# Cross-Region Backups
+* Supports cross-account backups- Supports the ability to backup and restore resources across AWS accounts for better security and management.
+
+* Cross-Region Backups- AWS Backup supports the automatic copying of backups across AWS regions to enhance disaster recovery capabilities.
+
+* Point in time Recovery (PITR) for available supported services like Aurora, Amazon DynamoDB and Amazon RDS.
+
+* On-Demand and Scheduled Backups- AWS Backup allows for both manual (on-demand) and automated (scheduled) backups. You can define backup policies and schedules to ensure regular and reliable data protection.
+
+* Backup Policies- Can create and manage backup policies using AWS Backup's backup plans to standardize and automate backup processes. 
+
+* Compliance and Security- AWS Backup integrates with AWS Identity and Access Management (IAM) for access control and AWS Key Management Service (KMS) for encryption.
+
