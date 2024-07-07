@@ -93,3 +93,21 @@ Use Cases
 
 * Compliance and Security- AWS Backup integrates with AWS Identity and Access Management (IAM) for access control and AWS Key Management Service (KMS) for encryption.
 
+# Disaster Recovery...!
+![image](https://github.com/pooja-bhavani/About-AWS-services/assets/147735975/632a570c-c83a-46d8-a3b7-15ce868cd1af)
+* There are two terms 
+1. RPO- Recovery Point Objective: The maximum acceptable amount of data loss measured in time.
+2. RTO- Recovery Time Objective: The maximum acceptable amount of time to restore the business process after a disaster.
+
+Tips for Disaster Recovery
+* Backups- Elastic Block Store (EBS snapshots) to backup EBS volumes, RDS automated backups/snapshots etc.
+* Regular pushes to S3, S3 IA (Infrequent Access), Glacier for cost-effective and durable storage, cross-region replication.
+
+# High Availability 
+* Use route53 to migrate Domain Name System (DNS) over from region to region to manage DNS failover.
+* RDS multi-AZ configuration to enhance database availability , EFS high-availability file storage, S3 for durability.
+* Site-to-site VPN as a recovery to direct connect  for reliable network connectivity during failures.
+
+# Replication 
+* RDS replication to create read replicas and enhance database availability, Aurora+Global database feature.
+* Storage gateway.
