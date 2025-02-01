@@ -1,4 +1,4 @@
-...........................# About IAM (Identity and Access Management)
+..........................# About IAM (Identity and Access Management)
 ![image](https://github.com/pooja-bhavani/About-AWS-services/assets/147735975/914d9c83-f1aa-43b4-b6f5-d4d0d9ed6a53)
 
 About IAM users, groups, policies and roles.
